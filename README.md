@@ -1,0 +1,4 @@
+grails-spock-example
+====================
+
+x
