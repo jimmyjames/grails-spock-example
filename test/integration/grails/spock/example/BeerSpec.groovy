@@ -4,12 +4,6 @@ import grails.plugin.spock.IntegrationSpec
 
 class BeerSpec extends IntegrationSpec {
 
-    def setup() {
-    }
-
-    def cleanup() {
-    }
-
     def "Beers can be added to a brewery"() {
         setup:
         Brewery brewery = new Brewery(name: "my brewery", description: "some desc", location: "my basement")
